@@ -10,13 +10,6 @@ intents:
   - bot_challenge
   - weather
 
-entities:
-  - time
-
-slots:
-  time:
-    type: any
-
 responses:
   utter_greet:
   - text: "Hey! Wie geht es dir?"
