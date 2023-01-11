@@ -8,8 +8,6 @@ RUN python -m spacy download de_core_news_lg
 
 RUN python -m pip install rasa-addons
 
-RUN python -m pip install duckling_http_extractor
-
 COPY . .
 
 RUN python -m pip install -r requirements.txt
