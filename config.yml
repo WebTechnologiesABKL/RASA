@@ -14,6 +14,7 @@ pipeline:
     model: de_core_news_lg
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
+  - name: SpacyEntityExtractor
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: char_wb
@@ -38,3 +39,8 @@ policies:
 #     max_history: 5
 #     epochs: 100
 #     constrain_similarities: true
+
+components:
+  - name: SpacyEntityExtractor
+    ner_model: "de_core_news_lg"
+    entity_types: ["LOC","DATE"]
