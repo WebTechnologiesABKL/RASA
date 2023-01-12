@@ -91,3 +91,11 @@ nlu:
     - Wird es regnen?
     - Scheint die Sonne?
     - Wird es schneien?
+    
+
+- intent: features
+  examples: |
+    - Was kannst du?
+    - Was kann ich hier machen?
+    - Was soll ich hier?
+    - Wie funktioniert das?
