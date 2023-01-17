@@ -48,4 +48,4 @@ policies:
 components:
   - name: SpacyEntityExtractor
     ner_model: "de_core_news_lg"
-    entity_types: ["LOC","DATE"]
+    entity_types: ["LOC"]
