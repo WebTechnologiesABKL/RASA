@@ -10,8 +10,6 @@ RUN python -m pip install rasa-addons
 
 COPY . .
 
-RUN python -m pip install -r requirements.txt
-
 RUN rasa train
 
 ENTRYPOINT ["rasa"]
