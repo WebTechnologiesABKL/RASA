@@ -15,7 +15,6 @@ pipeline:
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
   - name: SpacyEntityExtractor
-    dimensions: ["LOC"]
   - name: DucklingEntityExtractor
     url: "http://duckling:8000"
     dimensions: ["time"]
@@ -47,3 +46,6 @@ policies:
 #     constrain_similarities: true
 
 components:
+  - name: SpacyEntityExtractor
+    ner_model: "de_core_news_lg"
+    entity_types: ["LOC"]
