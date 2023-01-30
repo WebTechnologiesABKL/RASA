@@ -86,8 +86,7 @@ nlu:
 - intent: weather
   examples: |
     - Wie wird das Wetter?
-    - Wie Wetter?
-    - Wie ist die Temperatur?
+    - Wie warm ist es?
     - Wird es regnen?
     - Scheint die Sonne?
     - Wird es schneien?
