@@ -12,7 +12,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! Wie geht es dir?"
+  - text: "Moin moin!"
   - text: "Hallo!"
   - text: "Hey!"
 
@@ -33,13 +33,17 @@ responses:
   - text: "Klasse!"
 
   utter_goodbye:
-  - text: "Tschüss"
-  - text: "Bis bald"
-  - text: "Auf wiedersehen"
+  - text: "Tschüss."
+  - text: "Bis bald."
+  - text: "Auf Wiedersehen."
 
   utter_iamabot:
   - text: "Ich bin ein Bot. Ich kann dir mit dem Wetter weiterhelfen."
   - text: "Ich bin ein Chatbot der dir helfen kann das Wetter herauszufinden."
+
+  utter_guide_to_weather:
+  - text: "Das tut mir leid. Kann ich dir mit einer Wettervorhersage weiterhelfen?"
+  - text: "Schade, aber vielleicht scheint morgen ja wieder die Sonne. Sollen wir gemeinsam nachschauen?"
 
   utter_weather:
   - text: "Hier ist das Wetter: "
