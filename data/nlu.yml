@@ -75,6 +75,8 @@ nlu:
     - Unzufrieden
     - Nicht gut
     - Nicht sehr gut
+    - Mir geht es schlecht
+
 
 - intent: bot_challenge
   examples: |

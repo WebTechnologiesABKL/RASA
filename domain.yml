@@ -46,8 +46,8 @@ responses:
   - text: "Schade, aber vielleicht scheint morgen ja wieder die Sonne. Sollen wir gemeinsam nachschauen?"
 
   utter_weather:
-  - text: "Hier ist das Wetter: "
-  - text: "So wird das Wetter: "
+  - text: "Hier ist das Wetter: [aktuelles Wetter abrufen]"
+  - text: "So wird das Wetter: [aktuelles Wetter abrufen]"
 
   utter_features:
   - text: "Ich kann dir das Wetter sagen, wenn du mich danach fragst."
