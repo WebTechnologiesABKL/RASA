@@ -9,6 +9,10 @@ intents:
   - mood_unhappy
   - bot_challenge
   - weather
+  - weather_city
+
+entities:
+  - city
 
 responses:
   utter_greet:

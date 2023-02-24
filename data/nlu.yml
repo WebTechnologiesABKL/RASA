@@ -77,7 +77,6 @@ nlu:
     - Nicht sehr gut
     - Mir geht es schlecht
 
-
 - intent: bot_challenge
   examples: |
     - Bist du ein Bot?
@@ -92,7 +91,6 @@ nlu:
     - Wird es regnen?
     - Scheint die Sonne?
     - Wird es schneien?
-    
 
 - intent: features
   examples: |
@@ -100,3 +98,10 @@ nlu:
     - Was kann ich hier machen?
     - Was soll ich hier?
     - Wie funktioniert das?
+
+- intent: weather_city
+  examples: |
+    - Wie wird das Wetter in [Berlin] {"entity": "city"}?
+    - Gib mir das Wetter in [München] {"entity": "city"}
+    - Sag mir das Wetter in [Bielefeld] {"entity": "city"}
+    
