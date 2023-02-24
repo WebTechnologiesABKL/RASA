@@ -1,15 +1,33 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - weather
-  - weather_city
+  - greet:
+  ignore_entities:
+    - city
+  - goodbye:
+  ignore_entities:
+    - city
+  - affirm:
+  ignore_entities:
+    - city
+  - deny:
+  ignore_entities:
+    - city
+  - mood_great:
+  ignore_entities:
+    - city
+  - mood_unhappy:
+  ignore_entities:
+    - city
+  - bot_challenge:
+  ignore_entities:
+    - city
+  - weather:
+  ignore_entities:
+    - city
+  - weather_city:
+  use_entities:
+    - city
 
 entities:
   - city
