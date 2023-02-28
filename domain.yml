@@ -37,6 +37,7 @@ responses:
   - text: "Moin moin!"
   - text: "Hallo!"
   - text: "Hey!"
+  - text: "Huhu!"
 
   utter_cheer_up:
   - text: "Hier ist etwas, um dich aufzumuntern:"
@@ -53,6 +54,7 @@ responses:
   utter_happy:
   - text: "Super, mach weiter so!"
   - text: "Klasse!"
+  - text: "Großartig!"
 
   utter_goodbye:
   - text: "Tschüss."
@@ -61,15 +63,15 @@ responses:
 
   utter_iamabot:
   - text: "Ich bin ein Bot. Ich kann dir mit dem Wetter weiterhelfen."
-  - text: "Ich bin ein Chatbot der dir helfen kann das Wetter herauszufinden."
+  - text: "Ich bin ein Chatbot der dir sagen, wie das Wetter wird."
 
   utter_guide_to_weather:
   - text: "Das tut mir leid. Kann ich dir mit einer Wettervorhersage weiterhelfen?"
   - text: "Schade, aber vielleicht scheint morgen ja wieder die Sonne. Sollen wir gemeinsam nachschauen?"
 
   utter_weather:
-  - text: "Hier ist das Wetter: [aktuelles Wetter abrufen]"
-  - text: "So wird das Wetter: [aktuelles Wetter abrufen]"
+  - text: "Klasse, dann frag mich danach!"
+  - text: "Super, frage mich nach einer Wettervorhersage."
 
   utter_features:
   - text: "Ich kann dir das Wetter sagen, wenn du mich danach fragst."
