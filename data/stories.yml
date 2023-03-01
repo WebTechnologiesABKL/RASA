@@ -9,7 +9,7 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
-- story: sad path 1
+- story: cheer up path 1
   steps:
   - intent: greet
   - action: utter_greet
@@ -19,22 +19,15 @@ stories:
   - intent: affirm
   - action: utter_happy
 
-- story: sad path 2.1
+- story: cheer up path 2
   steps:
+  - intent: greet
+  - action: utter_greet
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
   - action: utter_guide_to_weather
-  - intent: affirm
-  - action: utter_weather
 
-- story: sad path 2.2
-  steps:
-    - intent: mood_unhappy
-    - action: utter_cheer_up
-    - action: utter_did_that_help
-    - intent: deny
-    - action: utter_guide_to_weather
-    - intent: deny
-    - action: utter_goodbye
+
+

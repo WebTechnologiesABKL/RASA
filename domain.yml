@@ -52,7 +52,7 @@ responses:
   - text: "Hilft dir das weiter?"
 
   utter_happy:
-  - text: "Super, mach weiter so!"
+  - text: "Super!"
   - text: "Klasse!"
   - text: "Großartig!"
 
@@ -67,11 +67,7 @@ responses:
 
   utter_guide_to_weather:
   - text: "Das tut mir leid. Kann ich dir mit einer Wettervorhersage weiterhelfen?"
-  - text: "Schade, aber vielleicht scheint morgen ja wieder die Sonne. Sollen wir gemeinsam nachschauen?"
-
-  utter_weather:
-  - text: "Klasse, dann frag mich danach!"
-  - text: "Super, frage mich nach einer Wettervorhersage."
+  - text: "Schade, aber vielleicht scheint morgen ja wieder die Sonne. Lass uns gemeinsam nachschauen!"
 
   utter_features:
   - text: "Ich kann dir das Wetter sagen, wenn du mich danach fragst."

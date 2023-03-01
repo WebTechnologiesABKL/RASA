@@ -16,11 +16,6 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Say 'Hier ist das Wetter' anytime the user asks for the weather
-  steps:
-  - intent: weather
-  - action: utter_weather
-
 - rule: Say 'Was du kannst' anytime the user asks what can you do
   steps:
   - intent: features
