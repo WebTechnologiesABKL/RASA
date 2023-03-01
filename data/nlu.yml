@@ -102,9 +102,11 @@ nlu:
 
 - intent: weather_city
   examples: |
-    - Wie wird das Wetter in [Berlin]{"entity": "city"}?
+    - Wie wird das Wetter in [Berlin]?{"entity": "city"}
     - Gib mir das Wetter in [München]{"entity": "city"}
     - Sag mir das Wetter in [Bielefeld]{"entity": "city"}
-    - Und in [Stuttgart]{"entity": "city"}?
-    
+    - Und in [Stuttgart]?{"entity": "city"}
+    - Wie wird das Wetter nächste Woche in [Frankfurt]?{"entity": "city"}
+    - Wie wird das Wetter morgen in [Dortmund]?{"entity": "city"}
+    - WIe ist das Wetter nächste Woche in [Düsseldorf]?{"entity": "city"}
     
