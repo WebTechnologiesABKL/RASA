@@ -1,12 +1,12 @@
 version: "3.1"
 
 rules:
-- rule: Say hello whenever the user says hello
+- rule: Say 'hello' whenever the user says hello
   steps:
   - intent: greet
   - action: utter_greet
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Say 'goodbye' anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
@@ -16,7 +16,12 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Say 'Was du kannst' anytime the user asks what can you do
+- rule: Say 'features' anytime the user asks what can you do
   steps:
   - intent: features
   - action: utter_features
+
+- rule: Say 'guide to weather' anytime the user denies (e.g. 'Hat dir das geholfen?')
+  steps:
+  - intent: deny
+  - action: utter_guide_to_weather

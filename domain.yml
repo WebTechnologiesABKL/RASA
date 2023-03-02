@@ -4,33 +4,49 @@ intents:
 - greet:
     ignore_entities:
       - city
+      - date
 - goodbye:
     ignore_entities:
       - city
+      - date
 - affirm:
     ignore_entities:
       - city
+      - date
 - deny:
     ignore_entities:
       - city
+      - date
 - mood_great:
     ignore_entities:
-        - city
+      - city
+      - date
 - mood_unhappy:
     ignore_entities:
       - city
+      - date
 - bot_challenge:
     ignore_entities:
       - city
+      - date
 - weather:
     ignore_entities:
       - city
+      - date
+- weather_city:
+    ignore_entities:
+      - date
+    use_entities:
+      - city
+
 - weather_city:
     use_entities:
+      - date
       - city
 
 entities:
   - city
+  - date
 
 responses:
   utter_greet:
@@ -63,7 +79,7 @@ responses:
 
   utter_iamabot:
   - text: "Ich bin ein Bot. Ich kann dir mit dem Wetter weiterhelfen."
-  - text: "Ich bin ein Chatbot der dir sagen, wie das Wetter wird."
+  - text: "Ich bin ein Chatbot der dir sagen kann, wie das Wetter wird."
 
   utter_guide_to_weather:
   - text: "Das tut mir leid. Kann ich dir mit einer Wettervorhersage weiterhelfen?"
