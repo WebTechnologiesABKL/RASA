@@ -100,17 +100,17 @@ nlu:
     - Wie wird das Wetter morgen in [Dortmund]{"entity": "city"}?
     - Wie ist das Wetter nächste Woche in [Düsseldorf]{"entity": "city"}?
 
-- regex: date
-  examples: | 
-    - [0-3][0-9][- / .][0|1][0-9][- / .][1|2][0|9]\d\d
+#- regex: date
+#  examples: |
+#    - [0-3][0-9][- / .][0|1][0-9][- / .][1|2][0|9]\d\d
 #    - (^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.]([1|2]\d\d\d)
 
-- intent: weather_date
-  examples: |    
-    - Wie wird das Wetter am [14.03.2023]{"entity": "date"}    
-    - Gib mir das Wetter am [17/04/2023]{"entity": "date"}    
-    - Sag mir das Wetter am [31/12/2023]{"entity": "date"}    
-    - Und am [14-07-2024]{"entity": "date"}    
-    - Wie war das Wetter am [16/05/1980]{"entity": "date"}    
-    - Scheint die Sonne am [16.05.2024]{"entity": "date"} in [Berlin]{"entity": "city"}    
-    - Regnet es am [29.04.2023]{"entity": "date"} in [Karlsruhe]{"entity": "city"}
+#- intent: weather_date
+#  examples: |
+#    - Wie wird das Wetter am [14.03.2023]{"entity": "date"}
+#    - Gib mir das Wetter am [17/04/2023]{"entity": "date"}
+#    - Sag mir das Wetter am [31/12/2023]{"entity": "date"}
+#    - Und am [14-07-2024]{"entity": "date"}
+#    - Wie war das Wetter am [16/05/1980]{"entity": "date"}
+#    - Scheint die Sonne am [16.05.2024]{"entity": "date"} in [Berlin]{"entity": "city"}
+#    - Regnet es am [29.04.2023]{"entity": "date"} in [Karlsruhe]{"entity": "city"}

@@ -14,8 +14,8 @@ pipeline:
     model: de_core_news_lg
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
-  - name: RegexFeaturizer
-  - name: RegexEntityExtractor
+#  - name: RegexFeaturizer
+#  - name: RegexEntityExtractor
   - name: SpacyEntityExtractor
   - name: DucklingEntityExtractor
     url: "http://duckling:8000"
@@ -33,7 +33,7 @@ pipeline:
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
-# policies:
+policies:
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.
