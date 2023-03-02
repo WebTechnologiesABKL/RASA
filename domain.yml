@@ -4,49 +4,49 @@ intents:
 - greet:
     ignore_entities:
       - city
-#      - date
+      - date
 - goodbye:
     ignore_entities:
       - city
-#      - date
+      - date
 - affirm:
     ignore_entities:
       - city
-#      - date
+      - date
 - deny:
     ignore_entities:
       - city
-#      - date
+      - date
 - mood_great:
     ignore_entities:
       - city
-#      - date
+      - date
 - mood_unhappy:
     ignore_entities:
       - city
-#      - date
+      - date
 - bot_challenge:
     ignore_entities:
       - city
-#      - date
+      - date
 - weather:
     ignore_entities:
       - city
-#      - date
+      - date
 - weather_city:
-#    ignore_entities:
-#      - date
+    ignore_entities:
+      - date
     use_entities:
       - city
 
-#- weather_city:
-#    use_entities:
-#      - date
-#      - city
+- weather_city:
+    use_entities:
+      - date
+      - city
 
-#entities:
-#  - city
-#  - date
+entities:
+  - city
+  - date
 
 responses:
   utter_greet:
