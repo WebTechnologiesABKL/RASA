@@ -12,6 +12,9 @@ nlu:
     - Guten Abend
     - Moin
 
+- intent: how_are_you
+  examples: |
+    - Wie geht es dir?
 
 - intent: goodbye
   examples: |

@@ -26,3 +26,8 @@ rules:
   steps:
   - intent: deny
   - action: utter_guide_to_weather
+
+- rule: Say 'I'm good' anytime the user asks how you are
+  steps:
+    - intent: how_are_you
+    - action: utter_im_good

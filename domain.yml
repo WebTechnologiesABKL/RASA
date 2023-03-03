@@ -90,6 +90,9 @@ responses:
   - text: "Ich kann dir das Wetter sagen, wenn du mich danach fragst."
   - text: "Ich bin ein WetterBot und kann dir das Wetter sagen, frage mich einfach etwas wie:\nWie wird das Wetter am Freitag in Berlin?"
 
+  utter_im_good:
+  - text: "Mir geht es gut, danke der Nachfrage. Wie geht es dir?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
