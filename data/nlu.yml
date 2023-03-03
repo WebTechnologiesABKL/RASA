@@ -55,6 +55,10 @@ nlu:
     - Ich fühle mich sehr gut
     - Ich bin glücklich
     - Ich bin begeistert
+    - Mir geht es gut!
+    - Mir geht es super.
+    - Mir geht es spitze
+    - Mir geht es sehr gut
 
 - intent: mood_unhappy
   examples: |
