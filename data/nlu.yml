@@ -15,6 +15,7 @@ nlu:
 - intent: how_are_you
   examples: |
     - Wie geht es dir?
+    - Geht es dir gut?
 
 - intent: goodbye
   examples: |
